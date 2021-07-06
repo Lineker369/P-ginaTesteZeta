@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dc1a0a0183.js" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+    <title>HOME</title>
+</head>
+<body>
+
+<!--Cabeçalho da página-->    
+    <header>
+
+		<div class="container">
+    
+                <a href="HomePage.html" class="zetalogo"></a>
+                <button class="btn-menu"><i class="fas fa-bars"></i></button>
+			<nav class="menu">
+                <a class="btn-close">x</a>
+                <ul>
+                   <li><a href="HomePage.html" ><i class="fas fa-home"></i>Home</a></li>  
+                   <li><a href="funcionarios.html" ><i class="fas fa-user"></i>Funcionários</a></li>  
+                   <li><a href="produtividade.html" ><i class="far fa-list-alt"></i> Produtividade</a></li> 
+                   <li><a href="HomePage.html" ><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                </ul> 
+			</nav>	 
+
+      
+		</div>
+	</header> 
+    <div class="banner">
+        <div class="title">
+            <h2>Dados para resultados !</h2>
+            <h3>Ajudamos empreendedores a tomarem decisões comerciais e estratégicas para seus negócios respaldados pela inteligência dos dados.</h3>
+        </div>  
+        <div class="buttons">
+            <button class="btn-sobre"><i class="fas fa-arrow-circle-right"></i>Saiba mais</button>
+        </div>  
+    </div>   
+
+<!--Corpo-->
+
+    <main class="servicos">
+        <article class="servico">
+            <img src="resources/img/zeta3.jpg" class="img1" />
+                <div class="inner">
+                    <a href="#">Big data</a>
+                    <p>Coletar e analisar grandes volumes de dados variados em altíssima velocidade: essa é a grande inovação do big data. É por conta desse sistema que você consegue colocar uma palavra em um buscador como o Google e obter, em menos de um segundo, os resultados mais relevantes a partir de uma palavra-chave. </p>
+                </div>
+        </article>
+        <article class="servico">
+            <img src="resources/img/zeta5.jpg" class="img2"/>
+                <div class="inner">
+                    <a href="#">Computação em nuvem</a>
+                    <p>Computação em nuvem é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador. </p>
+                </div>
+        </article>
+        <article class="servico">
+            <img src="resources/img/zeta1.jpg" class="img3" /> 
+                <div class="inner">
+                    <a href="#">Análise de dados</a>
+                    <p>A análise de dados é um processo de inspeção, limpeza, transformação e modelagem de dados com o objetivo de descobrir informações úteis, informar conclusões e apoiar a tomada de decisões. </p>
+                </div>
+        </article> 
+    </main>
+    <section class="newsletter">
+        <h2>Inscreva-se agora</h2>
+        <h3>Receba novidades, e conheça nossos serviços</h3>
+        <form>
+            <input type="email" name="email" placeholder="Seu email">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="soc-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+      
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function(){ $(".menu").show();});
+        $(".btn-close").click(function(){ $(".menu").hide();});
+    </script>
+    
+</body>
+</html>

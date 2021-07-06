@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dc1a0a0183.js" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+    <title>Produtividade</title>
+</head>
+
+<body>
+ 
+
+    <header>
+
+		<div class="container">
+                <a href="HomePage.html" class="zetalogo"></a>
+                <button class="btn-menu"><i class="fas fa-bars"></i></button>
+			<nav class="menu">
+                <a class="btn-close">x</a>
+                <ul>
+                   <li><a href="HomePage.html" ><i class="fas fa-home"></i>Home</a></li>  
+                   <li><a href="funcionarios.html" ><i class="fas fa-user"></i>Funcionários</a></li>  
+                   <li><a href="produtividade.html" ><i class="far fa-list-alt"></i> Produtividade</a></li> 
+                   <li><a href="HomePage.html" ><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                </ul> 
+			</nav>	 
+		</div>
+	</header> 
+  
+
+<!--Corpo-->
+    <div class="z3">
+        <img src="resources/img/zeta6.jpg" />
+    </div>
+
+    <section class="newsletter">
+        <h2>Inscreva-se agora</h2>
+        <h3>Receba novidades, e conheça nossos serviços</h3>
+        <form>
+            <input type="email" name="email" placeholder="Seu email">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="soc-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+      
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ 
+   <script>
+        $(".btn-menu").click(function(){ $(".menu").show();});
+        $(".btn-menu").click(function(){ $(".func").hide();});
+        $(".btn-close").click(function(){ $(".menu").hide();});
+        $(".btn-close").click(function(){ $(".func").show();});
+    </script>
+
+    <div class="func">
+        <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a900000a7cc80f22046249edd/emb"></script>
+    </div>
+    
+</body>
+</html>
